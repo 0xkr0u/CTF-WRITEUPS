@@ -226,7 +226,7 @@ subdomain: reddshrimpandherring.com.windomain.local
 3dTlY7.reddshrimpandherring.com.windomain.local
 ```
 
-##Wireshark:
+## Wireshark:
 
 if you use wireshark and filter the packets using ```dns && ip.addr == 18.217.1.57``` and filtering uisng sting: ```reddshrimpandherring.com SOA``` and use the subdomains we get:<br>
 ```bash
