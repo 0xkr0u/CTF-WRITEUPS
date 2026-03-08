@@ -55,6 +55,39 @@ PORT      STATE  SERVICE VERSION
 31331/tcp open   http    Apache httpd 2.4.41 ((Ubuntu))
 Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 ```
-
+# Gobuster
+```bash
+10:40:24 kr0u@penguin ultratech1 → gobuster dir --url="http://$ip:31331/" -w "/mnt/chromeos/removable/kr0u/Wordlists/SecLists-master/Discovery/Web-Content/big.txt" --no-error -x .html
+===============================================================
+Gobuster v3.5
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.113.133.209:31331/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /mnt/chromeos/removable/kr0u/Wordlists/SecLists-master/Discovery/Web-Content/big.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.5
+[+] Extensions:              html
+[+] Timeout:                 10s
+===============================================================
+2026/03/08 22:40:30 Starting gobuster in directory enumeration mode
+===============================================================
+/.htaccess            (Status: 403) [Size: 282]
+/.htaccess.html       (Status: 403) [Size: 282]
+/.htpasswd.html       (Status: 403) [Size: 282]
+/.htpasswd            (Status: 403) [Size: 282]
+/css                  (Status: 301) [Size: 323] [--> http://10.113.133.209:31331/css/]
+/favicon.ico          (Status: 200) [Size: 15086]
+/images               (Status: 301) [Size: 326] [--> http://10.113.133.209:31331/images/]
+/index.html           (Status: 200) [Size: 6092]
+/javascript           (Status: 301) [Size: 330] [--> http://10.113.133.209:31331/javascript/]
+/js                   (Status: 301) [Size: 322] [--> http://10.113.133.209:31331/js/]
+/partners.html        (Status: 200) [Size: 1986]
+/robots.txt           (Status: 200) [Size: 53]
+/server-status        (Status: 403) [Size: 282]
+/what.html            (Status: 200) [Size: 2534]
+Progress: 40429 / 40964 (98.69%)
+```
 
 
