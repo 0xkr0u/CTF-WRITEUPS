@@ -44,3 +44,30 @@ We can begin with Virus total
     </tr>
   </tbody>
 </table>
+
+if you look at ```IEXPLORE.EXE``` and ```SumatraPDF.exe``` have one interesting hacking adversary ```lazarus```
+Now to link them both using ```Mitre Att&ck```
+
+There is a certain mentions of malwares that can be traced back to what names are listed in virus total.
+<table>
+  <thead>
+    <tr>
+      <th>
+        Mitre Att&ck
+      </th>
+      <th>
+        Virus Total
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+       DRATzarus 
+      </td>
+      <td>
+      DRATzarus-1SI.exe
+      </rd>
+    </tr>
+  </tbody>
+</table>
