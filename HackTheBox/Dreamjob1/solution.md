@@ -86,20 +86,58 @@ Now to start answering question:
 <h3> Question 1 </h3>
 
 Who conducted Operation Dream Job?
-Answer: ```Lazarus Group``` Source: ```Mitre Att&ck```
-When was this operation first observed?
-Answer: ```September 2019``` Source: ```Mitre Att&ck```
-There are 2 campaigns associated with Operation Dream Job. One is Operation North Star, what is the other?
-Answer: ```Operation Interception``` Source: ```Mitre Att&ck```
-During Operation Dream Job, there were the two system binaries used for proxy execution. One was Regsvr32, what was the other?
-Answer: ```Rundll32``` Source: ```Mitre Att&ck```
-What lateral movement technique did the adversary use?
-Answer: ```Internal Spearphishing``` Source:  ```Mitre Att&ck``` 
-NB: This wasn't straight foward as i though password spraying was the technique used evidently ```Lazarus Group malware attempts to connect to Windows shares for lateral movement by using a generated list of usernames, which center around permutations of the username Administrator, and weak passwords.``` But had to resort to something that touches on sending the .doc to the victim.
-What is the technique ID for the previous answer?
-Answer: ```T1534```
-What Remote Access Trojan did the Lazarus Group use in Operation Dream Job?
-Answer: ```DRATzarus```
-What technique did the malware use for execution?
-Answer: ```Native API```
 
+Answer: ```Lazarus Group``` Source: ```Mitre Att&ck```
+
+When was this operation first observed?
+
+Answer: ```September 2019``` Source: ```Mitre Att&ck```
+
+There are 2 campaigns associated with Operation Dream Job. One is Operation North Star, what is the other?
+
+Answer: ```Operation Interception``` Source: ```Mitre Att&ck```
+
+During Operation Dream Job, there were the two system binaries used for proxy execution. One was Regsvr32, what was the other?
+
+Answer: ```Rundll32``` Source: ```Mitre Att&ck```
+
+What lateral movement technique did the adversary use?
+
+Answer: ```Internal Spearphishing``` Source:  ```Mitre Att&ck``` 
+
+NB: This wasn't straight foward as i though password spraying was the technique used evidently ```Lazarus Group malware attempts to connect to Windows shares for lateral movement by using a generated list of usernames, which center around permutations of the username Administrator, and weak passwords.``` But had to resort to something that touches on sending the .doc to the victim
+.
+What is the technique ID for the previous answer?
+
+Answer: ```T1534``` Source:  ```Mitre Att&ck``` 
+
+What Remote Access Trojan did the Lazarus Group use in Operation Dream Job?
+Answer: ```DRATzarus``` Source:  ```Mitre Att&ck``` 
+
+What technique did the malware use for execution?
+
+Answer: ```Native API``` Source:  ```Mitre Att&ck``` 
+
+What technique did the malware use to avoid detection in a sandbox?
+
+Answer: ```Time Based Checks```Source:  ```Mitre Att&ck``` 
+
+To answer the remaining questions, utilize VirusTotal and refer to the IOCs.txt file. What is the name associated with the first hash provided in the IOC file?
+
+Answer: ```IEXPLORE.exe``` Source: ```Virus total```
+
+When was the file associated with the second hash in the IOC first created?
+
+Answer: ```2020-05-12 19:26:17``` Source: ```Virus total```
+
+What is the name of the parent execution file associated with the second hash in the IOC?
+ 
+Answer: ```BAE_HPC_SE.iso``` Source: ```Virus total```
+
+Examine the third hash provided. What is the file name likely used in the campaign that aligns with the adversary's known tactics?
+
+Answer: ```Salary_Lockheed_Martin_job_opportunities_confidential.doc``` Source: ```Virus total```
+
+Which malicious URL in the contacted URLs is used to fetch a secondary .docx file?
+
+Answer: ```https://markettrendingcenter.com/lk_job_oppor.docx``` Source: ```Virus total```
