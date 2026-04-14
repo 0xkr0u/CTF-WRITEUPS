@@ -1,0 +1,46 @@
+# Solution for dreamjob 1
+we can download the file and unzip using ```7z x <filename>``` with the password ```hacktheblue``` as always
+we get an unzipped ```IOCs.txt```
+contents:
+```
+cat IOCs.txt
+1. 7bb93be636b332d0a142ff11aedb5bf0ff56deabba3aa02520c85bd99258406f
+2. adce894e3ce69c9822da57196707c7a15acee11319ccc963b84d83c23c3ea802
+3. 0160375e19e606d06f672be6e43f70fa70093d2a30031affd2929a5c446d07c1
+```
+the task essentialy wants us to be able to know how to use ```MITRE ATT$CK``` and ```VirusTotal``` and idenitfy who , when, how or what has been used during an attack 
+We can begin with Virus total
+<table>
+  <thead>
+    <tr>
+      <th>MD5</th>
+      <th>Name</th>
+      </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        7bb93be636b332d0a142ff11aedb5bf0ff56deabba3aa02520c85bd99258406f
+      </td>
+      <td>
+        IEXPLORE.EXE
+      </td>
+    </tr>
+        <tr>
+      <td>
+        adce894e3ce69c9822da57196707c7a15acee11319ccc963b84d83c23c3ea802
+      </td>
+      <td>
+        SumatraPDF.exe
+      </td>
+    </tr>
+        <tr>
+      <td>
+        0160375e19e606d06f672be6e43f70fa70093d2a30031affd2929a5c446d07c1
+      </td>
+      <td>
+        Salary_Lockheed_Martin_job_opportunities_confidential.doc
+      </td>
+    </tr>
+  </tbody>
+</table>
