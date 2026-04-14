@@ -84,8 +84,14 @@ The doc most likely is used for Phishing and will be refered to drop other progr
 
 Now to start answering question:
 <h3> Question 1 </h3>
+
 Who conducted Operation Dream Job?
-Answer: <br>
-
-
-
+Answer: ```Lazarus Group``` Source: ```Mitre Att&ck```
+When was this operation first observed?
+Answer: ```September 2019``` Source: ```Mitre Att&ck```
+There are 2 campaigns associated with Operation Dream Job. One is Operation North Star, what is the other?
+Answer: ```Operation Interception``` Source: ```Mitre Att&ck```
+During Operation Dream Job, there were the two system binaries used for proxy execution. One was Regsvr32, what was the other?
+Answer: ```Rundll32``` Source: ```Mitre Att&ck```
+What lateral movement technique did the adversary use?
+Answer: ```Internal Spearphishing```
