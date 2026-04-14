@@ -69,5 +69,23 @@ There is a certain mentions of malwares that can be traced back to what names ar
       DRATzarus-1SI.exe
       </rd>
     </tr>
+  <tr>
+    <td>
+      Sumarta
+    </td>
+    <td>
+      SumatraPDF.exe
+    </td>
+  </tr>
   </tbody>
 </table>
+
+The doc most likely is used for Phishing and will be refered to drop other programs
+
+Now to start answering question:
+<h3> Question 1 </h3>
+Who conducted Operation Dream Job?
+Answer: <br>
+
+
+
