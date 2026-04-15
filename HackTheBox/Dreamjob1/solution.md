@@ -1,4 +1,8 @@
 # Solution for dreamjob 1
+
+## Prologue: 
+The attack is based of tricking users to click into , as the name suggests, dream job documents. this document will be able to  use macros to execute malware and sideload dll files.Macros is able to take windows shell commands which becomes the attack vector.
+
 we can download the file and unzip using ```7z x <filename>``` with the password ```hacktheblue``` as always
 we get an unzipped ```IOCs.txt```
 contents:
